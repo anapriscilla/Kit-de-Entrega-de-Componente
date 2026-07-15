@@ -1,0 +1,12 @@
+.link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: var(--spacing-tap-padding);
+  white-space: nowrap;
+}
+
+.link--hover {
+  text-decoration: underline;
+}

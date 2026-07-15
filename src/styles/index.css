@@ -1,0 +1,10 @@
+@import './fonts.css';
+@import './tokens.css';
+@import './theme.css';
+@import './components/icon.css';
+@import './components/label.css';
+@import './components/field.css';
+@import './components/button.css';
+@import './components/checkbox.css';
+@import './components/link.css';
+@import './tailwind.css';

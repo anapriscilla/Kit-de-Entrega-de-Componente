@@ -1,0 +1,20 @@
+.button {
+  border: none;
+  border-radius: var(--radius-field);
+  color: var(--white);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-field-padding-y) var(--spacing-field-padding-x);
+}
+
+.button--default {
+  background: var(--content-action);
+}
+
+.button--hover,
+.button--default:hover {
+  background: var(--content-action-hover);
+  box-shadow: var(--elevation-hover);
+}

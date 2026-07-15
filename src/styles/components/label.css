@@ -1,0 +1,15 @@
+.label {
+  display: inline-block;
+}
+
+.label--default {
+  color: var(--text-primay);
+}
+
+.label--focus {
+  color: var(--content-action);
+}
+
+.label--error {
+  color: var(--content-error);
+}

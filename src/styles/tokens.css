@@ -1,0 +1,38 @@
+/* Primitivos */
+:root {
+}
+
+/* Semânticos */
+:root {
+  /* Cor */
+  --bg-field: #ffffff;
+  --border-default: #64748b;
+  --content-action: #1d4ed8;
+  --content-action-hover: #2563eb;
+  --content-error: #b91c1c;
+  --text-primay: #111827; /* grafia mantida de propósito — bate com a variable do Figma, ver tokens.md */
+  --text-value: #94a3b8;
+  --icon: #475569;
+  --white: #ffffff;
+
+  /* Espaçamento e tamanho */
+  --spacing-field-gap: 8px;
+  --spacing-field-padding-x: 16px;
+  --spacing-field-padding-y: 8px;
+  --spacing-tap-padding: 10px;
+  --radius-field: 12px;
+  --radius-fiel-checkbox: 4px; /* grafia mantida de propósito — bate com a variable do Figma, ver tokens.md */
+  --border-width-default: 1px;
+
+  /* Tipografia */
+  --font-size-input: 16px;
+}
+
+/* Componentes */
+:root {
+}
+
+/* Efeito (Effect Style no Figma — não é Variable, ver tokens.md) */
+:root {
+  --elevation-hover: 0 3px 6px 0 rgba(17, 24, 39, 0.25);
+}

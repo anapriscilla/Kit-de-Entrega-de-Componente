@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--white);
+  color-scheme: light;
+}
+
+.showcase-card {
+  background: var(--bg-field);
+  border: var(--border-width-default) solid color-mix(in srgb, var(--border-default) 35%, white);
+  border-radius: var(--radius-field);
+  box-shadow: var(--elevation-hover);
+}
+
+.showcase-subtitle {
+  color: var(--text-value);
+}
