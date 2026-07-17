@@ -1,6 +1,7 @@
 .field {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
 .field-content {
@@ -26,14 +27,26 @@
   border-color: var(--content-error);
 }
 
+.field-content:focus-within {
+  border-color: var(--content-action);
+}
+
+.field:focus-within .label {
+  color: var(--content-action);
+}
+
 .field-input {
   flex: 1;
   min-width: 0;
   border: none;
   outline: none;
   background: transparent;
-  color: var(--text-value);
+  color: var(--text-primay);
   font-size: var(--font-size-input);
+}
+
+.field-input::placeholder {
+  color: var(--text-value);
 }
 
 .field-trailing {
@@ -45,5 +58,7 @@
 }
 
 .field-helper-text {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--content-error);
 }

@@ -30,6 +30,7 @@
 
 /* Componentes */
 :root {
+  --button-height: 44px;
 }
 
 /* Efeito (Effect Style no Figma — não é Variable, ver tokens.md) */

@@ -28,6 +28,7 @@ Lista de todas as variáveis (Local Variables) do Kit, organizadas por categoria
 | `radius-field` | `12` | corner radius do `Field`; reaproveitado no `Button` |
 | `radius-fiel-checkbox` | `4` | corner radius do `Checkbox` — *grafia com typo, ver Pendências* |
 | `border-width-default` | `1` | espessura de borda padrão dos campos |
+| `button-height` | `44` | altura fixa do `Button`, valor vindo do Figma |
 
 ## Tipografia
 
@@ -54,3 +55,4 @@ Lista de todas as variáveis (Local Variables) do Kit, organizadas por categoria
 - `Link` e `Checkbox` agora usam o token `spacing-tap-padding` (`10px`) em vez de padding fixo.
 - O `Input` do `Field` agora usa o token `font-size-input` (`16px`) em vez de depender de um "token de tipografia do sistema" que não existia.
 - A caixinha (`Container`) do `Checkbox` — antes uma imagem no Figma, sem tokens associados — passou a ser desenhada em CSS reaproveitando tokens que já existiam: `bg-field` e `border-default` (vazio), `content-action` (marcado), `white` (marca de check) e `radius-fiel-checkbox`. Nenhuma cor nova foi criada.
+- `Button` estava com altura variável (dependente do padding vertical). Agora usa o token `button-height` (`44px`), fixo, batendo com o componente no Figma.

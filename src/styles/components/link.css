@@ -10,3 +10,11 @@
 .link--hover {
   text-decoration: underline;
 }
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:hover .label {
+  color: var(--content-action);
+}

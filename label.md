@@ -1,7 +1,7 @@
 \
 # Label
 
-Rótulo de texto usado acima de campos de formulário. Indica o que o usuário deve preencher e reflete visualmente o estado do campo ao qual está associado.
+Rótulo de texto usado acima de campos de formulário. Indica o que o usuário deve preencher e reflete visualmente o estado do campo ao qual está associado. Par obrigatório da entrega com `Field` (ver `input.md` e `guidelines.md`) — o Label é sempre instanciado dentro do Field, nunca solto.
 
 ## Estrutura
 
@@ -28,7 +28,7 @@ Rótulo de texto usado acima de campos de formulário. Indica o que o usuário d
 
 - Componente: `Label` (Component Set no Figma, property `State`)
 - Tokens de cor usados: `text-primay`, `content-action`, `content-error` — ver `tokens.md`
-- Onde é usado: dentro de `Field / Login`, `Field / Password` e `Checkbox` (sempre como instância, nunca duplicado)
+- Onde é usado: dentro de `Field / Login`, `Field / Password` e `Checkbox` (sempre como instância, nunca duplicado) — ver `input.md` e `outros-componentes.md`
 - Descrição já publicada no campo Description do componente, no Figma
 
 ## 2. O que fazer / o que nunca fazer

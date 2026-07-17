@@ -29,7 +29,7 @@
   border-radius: var(--radius-fiel-checkbox);
 }
 
-.checkbox-box--checked {
+.checkbox-native:checked + .checkbox-box {
   border-color: var(--content-action);
   background: var(--content-action);
 }
@@ -38,4 +38,9 @@
   width: 10px;
   height: 10px;
   color: var(--white);
+  display: none;
+}
+
+.checkbox-native:checked + .checkbox-box .checkbox-mark {
+  display: block;
 }

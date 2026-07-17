@@ -6,7 +6,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--spacing-field-padding-y) var(--spacing-field-padding-x);
+  height: var(--button-height);
+  padding: 0 var(--spacing-field-padding-x);
 }
 
 .button--default {
