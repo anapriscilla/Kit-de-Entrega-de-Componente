@@ -11,13 +11,15 @@ Documentação: `tokens.md`, `guidelines.md`, `label.md` + `input.md` (par obrig
 ## Componentes criados no figma :
 [Clique aqui para visualizar no figma ⇾](https://www.figma.com/design/K6FxKHcEwYr8enuNeA08dI/Kit-de-entrega-de-componentes?node-id=0-1&t=zyfqDL4vaf1rpPy5-1)
 
+### Ou veja o preview das imagens e clique nelas 
 
-### Capturas de tela:
+[<img src="src/img/Componentes.png" width="550" alt="Figma para humano"/>](https://www.figma.com/design/K6FxKHcEwYr8enuNeA08dI/Kit-de-entrega-de-componentes?node-id=0-1&t=zyfqDL4vaf1rpPy5-1)
 
-[<img src="src/img/Componentes.png" width="350" alt="Figma para humano"/>](https://www.figma.com/design/K6FxKHcEwYr8enuNeA08dI/Kit-de-entrega-de-componentes?node-id=0-1&t=zyfqDL4vaf1rpPy5-1)
-
-[<img src="src/img/kit-de-entrega-de-componente.vercel.app_.png" width="350" alt="Navegador / para IA"/>](https://kit-de-entrega-de-componente.vercel.app/)
+[<img src="src/img/kit-de-entrega-de-componente.vercel.app_.png" width="550" alt="Navegador / para IA"/>](https://kit-de-entrega-de-componente.vercel.app/)
 
 ____________________________________________
 
-#### Por: Ana Priscilla F.
+#### Por: Ana Priscilla F. conecte-se comigo no [![LinkedIn](https://shields.io)](https://www.linkedin.com/in/anapriscilla/)
+
+
+
